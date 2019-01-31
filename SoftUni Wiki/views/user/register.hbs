@@ -1,0 +1,17 @@
+<main>
+    <h1>Welcome to SoftUni Wiki!</h1>
+    <section>
+        <h2>Register</h2>
+        <div class="spacer">
+            <form method="post" action="/user/register">
+                <label>Email:</label>
+                <input type="email" name="email" value="{{email}}" />
+                <label>Password:</label>
+                <input type="password" name="password" value="{{password}}" />
+                <label>Repeat password:</label>
+                <input type="password" name="checkPassword" value="{{checkPassword}}">
+                <input type="submit" value="Register">
+            </form>
+        </div>
+    </section>
+</main>

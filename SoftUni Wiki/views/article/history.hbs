@@ -1,0 +1,17 @@
+<main>
+    <h1>Welcome to SoftUni Wiki!</h1>
+    <section>
+        <h2>{{title}}</h2>
+        <div class="spacer">
+            <h3>Edit history</h3>
+            <ul>
+                {{#each edits}}
+                <li>
+                    <a href="/edit/details/{{../_id}}/{{_id}}">01:14, 31 May 2018‎</a> by
+                    <span class="author">{{author.email}}</span>
+                </li>
+                {{/each}}
+            </ul>
+        </div>
+    </section>
+</main>
